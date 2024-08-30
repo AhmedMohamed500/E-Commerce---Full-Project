@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+}
+
+.navbar{
+    position: absolute;
+    z-index: 9999;
+    width: 350px;
+    background-color: black;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+.right-nav{
+    height: 100vh;
+    width: 90px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #f7efef;
+}
+
+.form{
+    height: 100vh;
+}
+.input-style{
+    background-color: transparent;
+}
+.food-card{
+    position: relative;
+}
+.description{
+    position: absolute;
+    bottom: 50px;
+    padding: 2px;
+    color: black;
+    opacity: 0;
+}
+
+.food-card:hover .description{
+    opacity: 1;
+    transition: all 0.5s ;
+}
+
+.Area-Content{
+    cursor: pointer;
+}
+.Area-Content i {
+    font-size: 80px;
+}
+
+.ingredients{
+    cursor: pointer;
+}
+.ingredients i {
+    font-size: 80px;
+}
+.details{
+    margin: 5px;
+}
+.details li{
+    background-color: red;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.mouse{
+    cursor: pointer;
+}
+
+.card-brand img:hover{
+    border: 1px solid green;
+}
+
+
+
+
+
+/*Global*/
+
+/* :root{
+    --main-color : #343434;
+    --second-color : #748182;
+}
+
+
+
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+} */
